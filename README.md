@@ -5,7 +5,7 @@ This is a Django module to make your project GDPR compliant.
 
 Following is a list of features from [GDPR - A Practical Guide for developers](https://techblog.bozho.net/gdpr-practical-guide-developers/). Some of the features may not be realistic to implement for every use case and will be updated as and when required.
 
-- “Forget me” – Implement a method method that takes a userId and deletes all personal data about that user (in case they have been collected on the basis of consent or based on the legitimate interests of the controller (see more below), and not due to contract enforcement or legal obligation).
+- “Forget me” – Implement a method that takes a userId and deletes all personal data about that user (in case they have been collected on the basis of consent or based on the legitimate interests of the controller (see more below), and not due to contract enforcement or legal obligation).
 - Notify 3rd parties for erasure – Implement invoking third party API's (Salesforce, Hubspot, etc) do delete the pushed data about a user.
 - Restrict Processing - Add a "restrict processing" button in the admin panel next to the list of users. (The user settings page may also have that button with a dropdown to select from the Article 18(1) options). When clicked (after reading the appropriate information), it should mark the profile as restricted. That means it should no longer be visible to the backoffice staff, or publicly.
 - Export Data - Add an 'Export Data' functionality which exports all the data related to a single user.
